@@ -1,4 +1,4 @@
-
+/* operations page*/
 int addnums(int, int);
 int subnums(int, int);
 int multnums(int, int);
