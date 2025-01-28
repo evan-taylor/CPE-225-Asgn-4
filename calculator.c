@@ -2,7 +2,6 @@
 #include "operations.h"
 
 
-
 int main() {
     int opNum;
     int num1;
