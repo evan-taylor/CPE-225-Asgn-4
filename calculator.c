@@ -44,7 +44,7 @@ int main() {
         case 4:
             if (num2 == 0) {
                 printf("Error: Division by zero!\n");
-                result = 0; // handle division by zero
+                result = 0;
             } else {
                 result = divnums(num1, num2);
             } 

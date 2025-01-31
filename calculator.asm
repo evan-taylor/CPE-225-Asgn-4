@@ -65,6 +65,8 @@ main_loop:
     beq s3, t0, operation_rshift
     
     # If we get here, invalid operation
+    la a0, result_msg
+    jal printstring
     la a0, invalid_op_msg
     jal printstring
     b check_continue
